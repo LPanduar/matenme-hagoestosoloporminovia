@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Estilos para el contenido */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+/* Estilos para el perfil */
+.perfil {
+    background-color: #f7f7f7;
+    padding: 1em;
+    border: 1px solid #ddd;
+    margin-bottom: 1em;
+}
+
+.perfil h2 {
+    margin-top: 0;
+}
+
+/* Estilos para las estadísticas */
+.estadisticas {
+    background-color: #f7f7f7;
+    padding: 1em;
+    border: 1px solid #ddd;
+    margin-bottom: 1em;
+}
+
+.estadisticas table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.estadisticas th, .estadisticas td {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+}
+
+/* Estilos para el formulario de votación */
+.formulario-votacion {
+    background-color: #f7f7f7;
+    padding: 1em;
+    border: 1px solid #ddd;
+    margin-bottom: 1em;
+}
+
+.formulario-votacion label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.formulario-votacion input[type="radio"] {
+    margin-right: 0.5em;
+}
+
+/* Estilos para el botón de votar */
+.boton-votar {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.boton-votar:hover {
+    background-color: #555;
+}
